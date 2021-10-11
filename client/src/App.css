@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Juak&display=swap');
+@font-face { font-family: 'wemark'; src: url(font/Wemakeprice-Regular.ttf) format('truetype'); }
+
+
+#VoiceInput{
+  font-family: 'wemark', sans-serif;
+  /* background: #000000; */
+  background: #000000;
+  width: 1px;
+  height: 1px;
+}
+
+
+/*로그인 페이지*/
+
+#LoginInput {
+    display : inline-block;
+    margin : 0 auto;
+    border: 0.5px solid #2a2a2a;
+    text-align: center;
+    width: 310px;
+    height: 50px;
+    font-size : 24px;
+    border-radius:5px 5px;
+    background: #2A2A2A;
+    color: #FFFFFF;
+    font-family: 'wemark', sans-serif;
+}
+
+
+#title{
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+.LoginPage {
+  margin : 0 auto;
+  font-family: 'wemark', sans-serif;
+  color: #FFFFFF;
+}
+.Login-form {
+  color: #FFFFFF;
+  font-size: 25px;
+  font-family: 'wemark', sans-serif;
+  /* z-index: 1; */
+  /* background: #7868e6; */
+  text-align: center;
+  /* box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); */
+}
+.Login-form input {
+  font-family: 'wemark', sans-serif;
+  /* outline: 0; */
+  background: #bce2d0;
+  width: 100%; 
+  border: 0;
+  margin-left: -50px;
+  text-align: center;
+  /* padding: 15px; */
+  box-sizing: border-box;
+  font-size: 20px;
+  /* margin-bottom: 30px; */
+}
+
+.Login-form video{
+  
+  border-radius:20px 20px;
+  transform: scaleX(-1);
+}
+
+/* .form button {
+  font-family: 'wemark', sans-serif;
+  text-trasadsadsadsnsform: uppercase;
+  outline: 0;
+  background: #2a2a2a;
+  color: #FFFFFF;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #000000;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+} */
+
+
+
+
+#btnLogin {
+    /* border-color: black; */
+    font-family: 'wemark', sans-serif;
+    text-transform: uppercase;
+    width:0%;
+    height:40px;
+    text-align: center;
+    color: #000000;
+    background-color: #000000;
+    margin-top: 40px;
+    font-size: 15px;
+    margin-left: 5px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    visibility: hidden;
+    
+}
+
+
+#WebCam {
+  text-align: center;
+  border: 0.5px solid #2a2a2a;
+  
+}
+
+#FullScreenButton{
+  visibility: hidden;
+}
+
+
+.Login-form button:hover,.form button:active,.form button:focus {
+  background: #000000;
+}
+.Login-form .message {
+  margin: 15px 0 0;
+  color: #000000;
+  font-size: 12px;
+}
+.Login-form .message a {
+  color: #000000;
+  text-decoration: none;
+}
+.Login-form .register-form {
+  display: none;
+}
+.container {
+  position: relative;
+  /* z-index: 1; */
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #EF3B3A;
+}
+body {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #000000, #000000);
+  background: -moz-linear-gradient(right, #000000, #FFFFFF);
+  background: -o-linear-gradient(right, #000000, #000000);
+  background: linear-gradient(to left, #000000, #000000);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+
+#jb-sidebar {
+  width: 260px;
+  padding: 20px;
+  margin-bottom: 20px;
+  float: right;
+  border: 1px solid #000000;
+}
+
+.ReactModal__Content.ReactModal__Content--after-open{
+  width: 50%;
+  background-color: #000000 !important;
+  position: relative !important;
+  text-align: center;
+  top: 30% !important;
+  left: 25% !important;
+  color:#ffffff !important;
+  border: 5px solid #FFFFFF !important;
+  font-size: 30px;
+  font-weight: 100;
+  font-family: 'wemark', sans-serif;
+  border-radius: 15px 15px !important;
+
+  
+}
+
+/*측정한 결과*/
+
+.Predict-form {
+  color: #000000;
+  font-size: large;
+  font-family: 'wemark', sans-serif;
+  position: relative;
+  /* z-index: 1; */
+  /* background: #7868e6; */
+  max-width: 900px;
+  max-height: 900px;
+  margin: 0 auto 100px;
+  padding: 5px;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  /* box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); */
+}
+.Predict-form input {
+  border: 1.5px solid #2a2a2a;
+  border-radius:20px 20px;
+  font-family: 'wemark', sans-serif;
+  outline: 0;
+  background: #2a2a2a;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.Predict-form button {
+  font-family: 'wemark', sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #2a2a2a;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  margin-left: 90px;
+}
+.Predict-form button:hover,.form button:active,.form button:focus {
+  background: #FFFFFF;
+}
+.Predict-form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.Predict-form .message a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.Predict-form .register-form {
+  display: none;
+}
+
+#outspinner{
+  color: #ffffff;
+}
+
+#spinner 
+{ 
+  width: 200px; 
+  height: 200px; 
+  margin: 0 auto 1rem; 
+  border: 5px solid ; 
+  border-radius: 50%; 
+  border-left-color: transparent; 
+  color:#FFFFFF;
+  border-right-color: transparent; 
+  -webkit-animation:spin 1000ms infinite linear; 
+  -moz-animation:spin 1000ms infinite linear; 
+  -ms-animation:spin 1000ms infinite linear; 
+  animation:spin 1000ms infinite linear; 
+} 
+
+
+@-webkit-keyframes spin { 100%{ -webkit-transform: rotate(360deg); } } 
+@-moz-keyframes spin { 100%{ -moz-transform: rotate(360deg); } } 
+@-ms-keyframes spin { 100%{ -ms-transform: rotate(360deg); } } 
+@keyframes spin { 100%{ transform: rotate(360deg); } }
+
+
+
+#submitButton{
+  background-color: #000000;
+  font-family: 'wemark', sans-serif;
+  font-size: 18px;
+  margin-left: -10px;
+}
+
+#HighClass{
+  color : #e91212;
+  font-weight: 700;
+  font-size: 30px;
+  background-color: black;
+  width: 180px;
+  height: 30px;
+  border-radius: 1.5px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  }
+  
+  #MiddleClass{
+  color : #cf673d;
+  font-weight: 700;
+  font-size: 30px;
+  background-color: black;
+  width: 180px;
+  height: 30px;
+  border-radius: 1.5px;
+  margin-bottom: 20px;
+  }
+  
+  #LowClass{
+  color : #2640d3;
+  font-weight: 700;
+  font-size: 30px;
+  background-color: black;
+  width: 180px;
+  height: 30px;
+  border-radius: 1.5px;
+  
+  }
+  
+  #GoodClass{
+  color : #34c96d;
+  font-weight: 700;
+  font-size: 30px;
+  background-color: black;
+  width: 180px;
+  height: 40px;
+  border-radius: 1.5px;
+  }
+
+  
+
+/*레이아웃*/
+
+  .Content {
+    margin : 0 auto;
+    text-align: right;
+    border: 1px solid #000000;
+  }
+  .Header {
+    color: #b3b3b3;
+    border: 1px solid #000000;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 150px;
+    font-family: 'wemark', sans-serif;
+    
+  }
+  .Footer {
+    clear: both;
+    padding: 20px;
+    border: 1px solid #000000;
+  }
+  

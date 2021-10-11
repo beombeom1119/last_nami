@@ -1,0 +1,31 @@
+{
+    "name": "reactnode",
+    "version": "1.0.0",
+    "scripts": {
+        "client": "cd client && npm start",
+        "server": "nodemon server.js",
+        "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+    },
+    "dependencies": {
+        "@craco/craco": "^6.1.1",
+        "@teachablemachine/image": "^0.8.4",
+        "autoprefixer": "^10.2.5",
+        "axios": "^0.21.1",
+        "body-parser": "^1.19.0",
+        "ejs": "^3.1.6",
+        "express": "^4.17.1",
+        "html2canvas": "^1.0.0-rc.7",
+        "multer": "^1.4.2",
+        "mysql": "^2.18.1",
+        "nodemon": "^2.0.7",
+        "prop-types": "^15.7.2",
+        "react-modal": "^3.13.1",
+        "react-qr-barcode-scanner": "^1.0.6",
+        "react-qr-scanner": "^1.0.0-alpha.7",
+        "react-speech-recognition": "^3.7.0"
+    },
+    "devDependencies": {
+        "concurrently": "^4.1.2"
+    },
+    "private": true
+}
